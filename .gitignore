@@ -3,7 +3,7 @@ node_modules/
 
 # Ignore build output
 .next/
-out/
+
 
 # Ignore Next.js cache files
 .next/cache/
