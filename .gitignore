@@ -1,0 +1,41 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore build output
+.next/
+out/
+
+# Ignore Next.js cache files
+.next/cache/
+
+# Ignore production environment variables file
+.env
+.env.local
+.env.*.local
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore local IDE/editor settings
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Optional: Ignore the build and public folder (if you're using them for output)
+build/
+dist/
+public/
+
+# Optional: Ignore Git Large File Storage (LFS) cache
+.git/lfs/
