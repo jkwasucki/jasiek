@@ -35,7 +35,6 @@ yarn.lock
 # Optional: Ignore the build and public folder (if you're using them for output)
 build/
 dist/
-public/
 
 # Optional: Ignore Git Large File Storage (LFS) cache
 .git/lfs/
