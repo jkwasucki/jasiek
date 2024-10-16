@@ -7,7 +7,7 @@ export default function Hero2() {
     <div className="flex flex-col w-screen lg:min-h-screen lg:max-h-screen lg:gap-12 lg:py-12">
       {/* Text Section */}
       <div className="flex flex-col items-center justify-center text-center max-w-[90vw] lg:max-w-[70vw] gap-5 mx-auto py-6 lg:py-0">
-        <Image src="Linia.png" alt="Separator Image" />
+        {/* <Image src="Linia.png" alt="Separator Image" /> */}
         <h1 className="text-[24px] sm:text-[28px] lg:text-[30px]">Kilka słów o naszej pracowni</h1>
         <p className="text-[15px] sm:text-[17px] lg:text-[20px] leading-relaxed">
          Od 1919 roku ręcznie wykonujemy obuwie męskie i damskie najwyższej klasy. Na życzenie klienta wykonujemy prawie każdy rodzaj butów.

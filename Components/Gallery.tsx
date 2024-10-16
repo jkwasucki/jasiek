@@ -38,7 +38,7 @@ const Gallery: React.FC = () => {
   return (
     <div className="lg:min-h-screen lg:max-h-screen flex flex-col items-center px-4 lg:px-12 py-6 lg:py-12">
       {/* Separator Image */}
-      <Image src={separatorImage} alt="Separator" />
+      {/* <Image src={separatorImage} alt="Separator" /> */}
 
       {/* Gallery Title and Description */}
       <div className="flex flex-col items-center justify-center mb-6 text-center max-w-[90vw] lg:max-w-[70vw]">
