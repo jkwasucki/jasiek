@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="relative w-full h-[70vh]">
       <div className="absolute inset-0 w-full overflow-hidden">
         <Image
-          src="4.jpg"
+          src={heroImage}
           alt="Hero Image"
           layout="fill"
           objectFit="cover"
