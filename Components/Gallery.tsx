@@ -13,6 +13,22 @@ const Gallery: React.FC = () => {
     '/buty12.jpg',
     '/buty17.jpg',
     '/buty8.jpg',
+    '/b1.JPG',
+    '/b2.JPG',
+    '/b3.JPG',
+    '/b4.JPG',
+    '/b5.JPG',
+    '/b6.JPG',
+    '/b7.JPG',
+    '/b8.JPG',
+    '/b9.JPG',
+    '/b10.JPG',
+    '/b11.JPG',
+    '/b12.JPG',
+    // '/b13.JPG',
+    '/b14.JPG',
+    '/b15.JPG',
+    '/b16.JPG',
   ];
 
   const handleImageClick = (index: number) => {
@@ -36,7 +52,7 @@ const Gallery: React.FC = () => {
   };
 
   return (
-    <div className="lg:min-h-screen lg:max-h-screen flex flex-col items-center px-4 lg:px-12 py-6 lg:py-12">
+    <div className="lg:min-h-full lg:max-h-full h-full flex flex-col items-center px-4 lg:px-12 py-6 lg:py-12">
       {/* Separator Image */}
       <Image src={separatorImage} alt="Separator" />
 
@@ -44,7 +60,7 @@ const Gallery: React.FC = () => {
       <div className="flex flex-col items-center justify-center mb-6 text-center max-w-[90vw] lg:max-w-[70vw]">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl mt-8 mb-4">Galeria</h1>
         <p className="text-base sm:text-lg lg:text-xl leading-relaxed">
-          W pracowni szewskiej każdy szewc staje się architektem wygody i klasy, tworząc obuwie, które staje się wyrazem osobowości tego kto je nosi.
+          W pracowni szewskiej każdy szewc staje się architektem wygody i klasy, tworząc obuwie, które staje się wyrazem osobowości osoby, która je nosi.
         </p>
       </div>
 

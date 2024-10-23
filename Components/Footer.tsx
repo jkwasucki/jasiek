@@ -53,7 +53,7 @@ export default function Footer() {
 
         {/* Disclaimer Text */}
         <p className="text-sm lg:text-md text-center md:text-[15px] max-w-4xl px-4 pt-12">
-          *Ze względu na różnego typu współprace z instytucjami artystycznymi godziny otwarcia nie zawsze są takie jak podane wyżej, dlatego najlepiej skontaktować się telefonicznie i umówić na konkretny termin.
+          *Ze względu na różnego typu współpracę z instytucjami artystycznymi godziny otwarcia nie zawsze są takie jak podane powyżej, dlatego najlepiej skontaktować się telefonicznie i umówić na konkretny termin.
         </p>
       </div>
     </div>

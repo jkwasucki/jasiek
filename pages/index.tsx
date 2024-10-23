@@ -42,7 +42,7 @@ const Home: React.FC = () => {
   };
 
   return (
-    <main className="flex flex-col h-full w-full font-charm gap-12 items-center">
+    <main className="flex flex-col h-full w-full font-charm gap-12 items-center overflow-hidden">
       <Navbar scrollToRef={scrollToRef} />
       <Hero />
       <div ref={aboutRef} id="about" className='anchor-section'>
